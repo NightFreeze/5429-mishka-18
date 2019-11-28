@@ -1,0 +1,35 @@
+$seafoam-blue: #63d1bb;
+$greeny-blue: #56c3b2;
+$white: #ffffff;
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 34px;
+}
+
+.menu__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 29px;
+
+  &:first-child {
+    background-color: $seafoam-blue;
+  }
+
+  &:last-child {
+    background-color: $greeny-blue;
+  }
+}
+
+.menu__title {
+  font-family: OpenSans;
+  font-size: 19px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.26;
+  letter-spacing: normal;
+  color: $white;
+}

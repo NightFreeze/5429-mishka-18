@@ -1,0 +1,31 @@
+$white-two: #f1f1f1;
+$black: #000000;
+
+.page-footer {
+  display: flex;
+  flex-direction: column;
+  background: $white-two;
+}
+
+.page-footer__social {
+  margin: 25px 0;
+}
+
+.page-footer__copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.copyright__text {
+  margin-right: 30px;
+  font-size: 19px;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.95;
+  letter-spacing: normal;
+  text-align: left;
+  color: $black;
+}

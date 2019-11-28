@@ -1,0 +1,16 @@
+.page-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.page-header__menu-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 22px 0;
+}
+
+.main-nav__toggle {
+  display: flex;
+  justify-self: flex-end;
+}

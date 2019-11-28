@@ -1,0 +1,14 @@
+.main-nav__toggle {
+  justify-self: flex-end;
+  border: none;
+  background-color: #ececec;
+}
+
+.main-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-nav__list {
+  margin: 0;
+}
