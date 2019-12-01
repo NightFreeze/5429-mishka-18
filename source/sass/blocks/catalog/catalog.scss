@@ -1,0 +1,33 @@
+$white-two: #f1f1f1;
+$black-two: #000000;
+
+.catalog {
+  display: flex;
+  flex-direction: column;
+}
+
+.catalog__header-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 177px;
+  background-color: $white-two;
+}
+
+.catalog__header {
+  font-size: 27px;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  color: $black-two;
+}
+
+.catalog__cards-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
