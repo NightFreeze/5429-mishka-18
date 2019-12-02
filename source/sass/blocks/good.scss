@@ -1,8 +1,3 @@
-$white-two: #f1f1f1;
-$white-four: #ececec;
-$black-two: #000000;
-$greyish-brown: #444444;
-
 .good {
   display: flex;
   flex-direction: column;
@@ -34,12 +29,6 @@ $greyish-brown: #444444;
   line-height: 2.31;
   letter-spacing: normal;
   color: $greyish-brown;
-}
-
-.good__decoration {
-  height: 1px;
-  background: $white-four;
-  padding: 0 28px;
 }
 
 .good__footer {
