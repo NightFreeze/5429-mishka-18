@@ -15,7 +15,7 @@
   margin: 30px 0;
 }
 
-.copyright__text {
+.page-footer__copyright-text {
   margin-right: 30px;
   font-size: 19px;
   font-weight: 700;
@@ -25,4 +25,19 @@
   letter-spacing: normal;
   text-align: left;
   color: $black-two;
+}
+
+.page-footer__social-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-footer__social-item {
+  list-style-type: none;
+  margin-right: 31px;
+
+  &:last-child {
+    margin-right: 0;
+  }
 }
