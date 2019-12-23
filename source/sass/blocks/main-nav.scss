@@ -12,3 +12,14 @@
 .main-nav__list {
   margin: 0;
 }
+
+@media (max-width: 772px) {
+  .main-nav__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .main-nav__toggle {
+    display: none;
+  }
+}

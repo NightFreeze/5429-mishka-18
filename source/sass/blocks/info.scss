@@ -13,3 +13,18 @@
   line-height: 1.11;
   letter-spacing: normal;
 }
+
+
+@media (max-width: 772px) {
+  .info {
+    height: 588px;
+    align-items: stretch;
+    justify-content: flex-start;
+    background-image: url(../img/hero-desktop@1x.jpg);
+    background-position: center;
+  }
+
+  .info__header {
+    padding: 0 139px;
+  }
+}

@@ -29,3 +29,15 @@
   letter-spacing: normal;
   color: $white;
 }
+
+@media (max-width: 772px) {
+  .menu {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 55px;
+  }
+
+  .menu__item {
+    width: 100%;
+  }
+}

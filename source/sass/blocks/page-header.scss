@@ -9,3 +9,22 @@
   align-items: center;
   padding: 22px 0;
 }
+
+.page-header__logo-image {
+  width: 86px;
+  height: 35px;
+  background: no-repeat url(../img/logo-mobile.svg);
+}
+
+@media (max-width: 772px) {
+  .page-header {
+    display: flex;
+  }
+
+  .page-header__logo-image {
+    width: 112px;
+    height: 46px;
+    margin-left: 51px;
+    background: no-repeat url(../img/logo-tablet.svg);
+  }
+}

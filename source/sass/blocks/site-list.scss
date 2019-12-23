@@ -23,3 +23,37 @@
   color: $black-two;
   text-decoration: none;
 }
+
+.site-list__item-image {
+  margin-right: 31px;
+}
+
+@media (max-width: 772px) {
+  .site-list__item {
+    &:nth-child(3) {
+      order: 1;
+      width: 82px;
+      border-left: 1px solid $white-two;
+      border-right: 1px solid $white-two;
+      .site-list__link {
+        display: none;
+      }
+    }
+    &:nth-child(4) {
+      order: 2;
+      .site-list__item-wrapper {
+        display: flex;
+        align-items: center;
+        padding: 0 52px 0 31px;
+      }
+    }
+    &:nth-child(1) {
+      order: 3;
+      margin-left: 52px;
+      margin-right: 37px;
+    }
+    &:nth-child(2) {
+      order: 4;
+    }
+  }
+}

@@ -27,6 +27,12 @@
   color: $seafoam-blue;
 }
 
+.best-good__image {
+  width: 260px;
+  height: 315px;
+  background: no-repeat url(../img/triple-set-mobile@1x.jpg);
+}
+
 .best-good__info {
   font-size: 15px;
   font-weight: normal;
@@ -74,4 +80,19 @@
   height: 6px;
   margin-bottom: 36px;
   background: repeat url(../img/bg-zigzag-line.svg);
+}
+
+@media (max-width: 772px) {
+  .best-good__image {
+    width: 260px;
+    height: 315px;
+    background: no-repeat url(../img/triple-set-tablet@1x.jpg);
+    background-position: center;
+  }
+
+  .best-good__header-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
 }
