@@ -41,3 +41,36 @@
     margin-right: 0;
   }
 }
+
+.page-footer__main-logo {
+  display: none;
+}
+
+.page-footer__academy-logo {
+  display: none;
+}
+
+@media (max-width: 772px) {
+  .page-footer__wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .page-footer__main-logo {
+    display: block;
+    width: 102px;
+    height: 34px;
+    background: url(../img/logo-footer.svg);
+  }
+
+  .page-footer__academy-logo {
+    width: 27px;
+    height: 34px;
+    background: url(../img/htmlacademy.svg);
+  }
+
+  .copyright__link {
+    display: none;
+  }
+}

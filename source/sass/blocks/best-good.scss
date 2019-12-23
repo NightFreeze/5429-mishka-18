@@ -92,7 +92,56 @@
 
   .best-good__header-wrapper {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    align-items: center;
   }
 
+  .best-good__best-of-the-week {
+    order: 1;
+    width: 70px;
+    margin-right: 58px;
+    text-align: center;
+  }
+
+  .best-good__header {
+    order: 2;
+    font-size: 53px;
+    font-weight: bold;
+    color: $black-two;
+  }
+}
+
+@media (max-width: 772px) {
+  .best-good__image {
+    display: none;
+  }
+
+  .best-good {
+    background: url(../img/triple-set-tablet@1x.jpg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    margin-bottom: 70px;
+  }
+
+  .best-good__wrapper {
+    width: 40%;
+  }
+
+  .best-good__info {
+    margin-bottom: 66px;
+  }
+
+  .best-good__list {
+    margin-bottom: 111px;
+  }
+
+  .best-good__price {
+    text-align: center;
+    margin-bottom: 34px;
+  }
+
+  .best-good__button {
+    width: 100%;
+    padding: 20px 0;
+  }
 }

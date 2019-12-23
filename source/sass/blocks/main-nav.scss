@@ -1,11 +1,11 @@
 .main-nav__toggle {
-  justify-self: flex-end;
-  border: none;
+  justify-self    : flex-end;
+  border          : none;
   background-color: $white-four;
 }
 
 .main-nav {
-  display: flex;
+  display       : flex;
   flex-direction: column;
 }
 
@@ -13,13 +13,24 @@
   margin: 0;
 }
 
+.main-nav__delivery-info {
+  display: none;
+}
+
 @media (max-width: 772px) {
   .main-nav__list {
-    display: flex;
+    display  : flex;
     flex-wrap: wrap;
   }
 
   .main-nav__toggle {
     display: none;
+  }
+
+  .main-nav__delivery-info {
+    display       : flex;
+    line-height   : 1.6;
+    letter-spacing: normal;
+    color         : #444444;
   }
 }

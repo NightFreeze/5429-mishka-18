@@ -33,3 +33,25 @@
 .about__info {
   margin: 0;
 }
+
+@media (max-width: 772px) {
+  .about__header {
+    font-size: 53px;
+    font-weight: bold;
+  }
+
+  .about__item {
+    width: 216px;
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+
+  .about__list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: space-evenly;
+  }
+}
