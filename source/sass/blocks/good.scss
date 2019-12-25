@@ -4,7 +4,18 @@
 }
 
 .good__image {
+  width: 260px;
+  height: 195px;
   margin-bottom: 31px;
+  &:first-child {
+    background: url(../img/photo-hare-mobile@1x.jpg);
+  }
+  &:last-child {
+    background: url(../img/photo-bowl-mobile@1x.jpg);
+  }
+  &:nth-child(2) {
+    background: url(../img/photo-toys-mobile@1x.jpg);
+  }
 }
 
 .good__header {
@@ -39,4 +50,49 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+@media (max-width: 772px) {
+  .good {
+    display: flex;
+    flex-direction: row;
+    height: 334px;
+    margin-bottom: 54px;
+  }
+
+  .good__image {
+    width: 334px;
+    height: 334px;
+    margin-bottom: 31px;
+    &:first-child {
+      background: url(../img/photo-hare-tablet@1x.jpg);
+    }
+    &:last-child {
+      background: url(../img/photo-bowl-tablet@1x.jpg);
+    }
+    &:nth-child(2) {
+      background: url(../img/photo-toys-tablet@1x.jpg);
+    }
+  }
+
+  .good__info-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 29px 0 0 29px;
+    justify-content: space-between;
+  }
+
+  .good__header {
+    margin-bottom: 15px;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  .good__info {
+    font-size: 15px;
+  }
+
+  .good__footer {
+    margin-bottom: 29px;
+  }
 }

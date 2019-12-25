@@ -28,3 +28,9 @@
   align-items: center;
   padding: 30px;
 }
+
+@media (max-width: 772px) {
+  .catalog__header-wrapper {
+    margin-bottom: 67px;
+  }
+}
